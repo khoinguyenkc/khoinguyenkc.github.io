@@ -1,11 +1,11 @@
 # Site settings
-author: Vietkhoi Nguyen
-title: 
+author: Khoi Nguyen
+title: The Art of Code
 header-img: img/home-bg.png
 email: khoinguyenkc@gmail.com
-copyright_name: Vietkhoi Nguyen
+copyright_name: Khoi Nguyen
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Musings on Coding
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  khoinguyenkc
