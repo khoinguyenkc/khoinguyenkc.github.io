@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Protecting yourself from the coding black swan"
-date:       2021-02-23 05:25:27 +0000
+date:       2021-02-23 00:25:27 -0500
 permalink:  protecting_yourself_from_the_coding_black_swan
 ---
 
@@ -10,7 +10,7 @@ For the Rails project, I built an e-commerce site. I've always wanted to do it b
 
 The number one take away is that I should have spent more time in the planning process. I was very excited to dive into it, and also I was under the delusion that I knew my app very well. It turns out knowing what you want doesn't really mean you know how to get there. 
 
-The checkout flow is a neglected piece of the ecommerce store, since it is rather uninteresting. I didn't do the planning for this part of the app, assuming it is not that complicated. Little did I know, there is an intricate machinery behind it. I only knew when I actually got there.
+The checkout flow is a neglected piece of the ecommerce store, since it is rather uninteresting. I didn't do the planning for this part of the app, assuming it is not that complicated. Little did I know, there is an intricate machinery behind it. I only knew when I actually got there. It turned out this little part of the app, where the user spend less than a minute, takes up the majority of my coding time. 
 
  And failing to draw out the circuitry makes it much harder.  You do somethign and then you realize you need to do one more thng, then another thing, then another thing. It doesn't just take more time, it is also causing unneccessary frustration. Uncertainty is part of the process, certainly, but this kind of uncertainty was avoidable. 
  
