@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Javascript: Alchemy of the modern internet"
-date:       2021-04-30 03:35:51 +0000
+date:       2021-04-29 23:35:52 -0400
 permalink:  javascript_alchemy_of_the_modern_internet
 ---
 
@@ -10,16 +10,24 @@ I've heard somewhere that to understand how something is built, break it. That i
 
 
 THE TEDIOUS TASKS
+
 Here is an incomplete collection of decisions you might need to make and tasks you might need to do as you are building websites in vanilla Javascript.
 
 Whether to store all data in some global/local boject - or pass relevant data to the relevant functions only, like a chain of hot potatoes. 
+
 Where in the code to add to DOM the content
+
 How you hide a button as it is clicked
-How you build the "grid" of div elements with id/class names so you can later add content inside them.
+
+How you build the "grid" of div elements with id/class names so you can later add content inside them
+
 Creating references for DOM elements
+
 Removing the current content and shows the previous content should the user wants to go back/cancel the current task...
+
 Freezing other functionalities
-Clear "competing" content before you render new content (ex: imagine Facebook messenger, clear the old message as user wants to see the detail of the new message.
+
+Clearing "competing" content before you render new content (ex: imagine Facebook messenger, clear the old message as user wants to see the detail of the new message
 
 Often in our minds, we think of Javascript as document.createElement, adding listeners, appending nodes, query selecting nodes, removing nodes. But in practice, the bulk of our time is spent doing the invisible work above. 
 
@@ -33,6 +41,7 @@ One solution to that is literally you sketching out the HTML first before you tr
 
 
 DIVIDING THINGS UP
+
 Another trap for newbies in JS is to not breaking things into small, independent units. What does that mean? There are usually groups of function that serve each "component". Example: Store data, render button, remove button, add content to DOM, add listeners, extract data, fetch data, receive data and rerender content accordingly. And you can group them in however you want.  Make them methods inside a class or, informally, just put them in a separate file. As long as there is a mental and visual separation. A classic mistake is to think "I will organize this when I'm done". But the problem is, the mess is sitting there as you are trying to be "done", which makes it very hard to get things, well, done.
 
 In contrast, let's look at React. The cool thing about React is that the use of components automatically force u to divide things up. All the relevant methods in a React component is is defined within it, or in its prop.
