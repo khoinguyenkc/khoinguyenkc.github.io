@@ -33,6 +33,7 @@ Often in our minds, we think of Javascript as document.createElement, adding lis
 
 
 SEEING THE BIG PICTURE
+
 Some of the above tasks turns out harder than it looks. And one very big reason for that is that, in JS, we are unable to see the big picture. In React, everything is a component. You can visualize what this component looks like once it's mounted. 
 
 On the other hand, in Javascript, all you see is is a DOM node appended to a parent DOM node. That's now a realistic picture. You would have to go out of your way to see what the final html of this "component" will end up looking like in JavaScript. 
